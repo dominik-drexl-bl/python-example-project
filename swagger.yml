@@ -46,4 +46,3 @@ components:
           type: integer
         name:
           type: string
-

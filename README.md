@@ -15,5 +15,3 @@
   - open command prompt (F1)
   - select *Dev Containers: Open folder in Container*
 - Start running/debugging (F5)
-
-

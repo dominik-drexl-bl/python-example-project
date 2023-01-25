@@ -2,7 +2,7 @@ import os
 import connexion
 
 app = connexion.FlaskApp(__name__, specification_dir="./")
-app.add_api("service_api_spec.yml", strict_validation=True)
+app.add_api("swagger.yml", strict_validation=True)
 
 @app.route('/')
 def index():
